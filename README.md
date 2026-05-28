@@ -5,7 +5,7 @@
 
 ---
 
-## 📸 Overview
+## Overview
 
 CodeSage is a full-stack **AI Code Reviewer** that analyses any code snippet and returns structured, actionable feedback. Paste your code, choose your focus areas, and get back a quality score, categorised issues with line references, fix suggestions, and even a refactored snippet — all powered by Anthropic's Claude AI.
 
@@ -34,7 +34,7 @@ User pastes code
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Details |
 |---|---|
@@ -79,7 +79,7 @@ ai-code-reviewer/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the repository
 
@@ -111,7 +111,7 @@ bash scripts/start.sh
 
 ---
 
-## 🔧 Manual Setup (Alternative)
+## Manual Setup (Alternative)
 
 ### Backend
 
@@ -133,7 +133,7 @@ streamlit run app.py --server.port 8501
 
 ---
 
-## 📖 How to Use
+## How to Use
 
 ### Code Review
 1. Open http://localhost:8501
@@ -155,7 +155,7 @@ streamlit run app.py --server.port 8501
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 ### `GET /health`
 ```json
@@ -212,7 +212,7 @@ streamlit run app.py --server.port 8501
 
 ---
 
-## 🧱 Technical Stack
+## Technical Stack
 
 | Layer | Technology | Purpose |
 |---|---|---|
@@ -224,7 +224,7 @@ streamlit run app.py --server.port 8501
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Key parameters in `backend/reviewer.py`:
 
@@ -241,7 +241,7 @@ Adjustable in `backend/main.py`:
 
 ---
 
-## 🔮 Potential Extensions
+## Potential Extensions
 
 - **GitHub PR Integration**: Trigger reviews automatically on pull requests via webhooks
 - **VS Code Extension**: Run reviews inline inside the editor
@@ -253,7 +253,7 @@ Adjustable in `backend/main.py`:
 
 ---
 
-## 🤝 Skills Demonstrated
+## Skills Demonstrated
 
 This project showcases:
 
@@ -270,7 +270,3 @@ This project showcases:
 ## 📄 License
 
 MIT License — free to use, modify, and distribute.
-
----
-
-*Built with ❤️ using Anthropic Claude, FastAPI, and Streamlit*
