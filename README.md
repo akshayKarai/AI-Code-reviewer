@@ -1,13 +1,13 @@
 # 🔍 CodeSage — AI Code Reviewer
 
-> **Instant AI-powered code review — bugs, security, performance & style**
+> **Instant AI-powered code review : bugs, security, performance & style**
 > Built with FastAPI · Claude AI · Streamlit
 
 ---
 
 ## Overview
 
-CodeSage is a full-stack **AI Code Reviewer** that analyses any code snippet and returns structured, actionable feedback. Paste your code, choose your focus areas, and get back a quality score, categorised issues with line references, fix suggestions, and even a refactored snippet — all powered by Anthropic's Claude AI.
+CodeSage is a full-stack **AI Code Reviewer** that analyses any code snippet and returns structured, actionable feedback. Paste your code, choose your focus areas, and get back a quality score, categorised issues with line references, fix suggestions, and even a refactored snippet.
 
 ```
 User pastes code
@@ -253,7 +253,7 @@ Adjustable in `backend/main.py`:
 
 ---
 
-## Skills Demonstrated
+## Summary
 
 This project showcases:
 
